@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between mb-3">
                         <h4 class="text-secondary">Fill in the details below</h4>
-                        <a class="btn btn-secondary" href="{{ route('users.index') }}">Back</a>
+                        <a class="btn btn-secondary" href="{{ route('users.index') }}">Back </a>
                     </div>
 
                     @if ($errors->any())
